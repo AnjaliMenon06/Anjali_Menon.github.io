@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font: poppins;
+}
+
+#main {
+  width: 100%;
+  height: 63vh;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: -20px;
+  left: 0;
+  width: 100%;
+  background-color: rgb(231, 248, 248);
+  box-shadow: 5px 10px 30px rgb(0, 61, 77);
+  z-index: 1;
+}
+
+.logo img {
+  height: 193px;
+  width: 210px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+
+.menu li a {
+  height: 80px;
+  line-height: 43px;
+  margin: 3px;
+  padding: 0px 22px;
+  display: flex;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+.hey {
+  color: rgb(7, 155, 155);
+  font-weight: 500;
+  font-size: 1em;
+  text-decoration: underline;
+  height: 55px;
+}
+
+.image {
+  width: 500px;
+  height: 400px;
+}
+
+.image img {
+  width: 120%;
+  height: 90%;
+  object-fit: contain;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  height: 74%;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%,-50%);
+  background-image: url("neww bg.png");
+}
+
+.main-text {
+  width: 700px;
+}
+
+.main-text h1 {
+  font-size: 3em;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  margin: 0px 0px 10px 0px;
+  line-height: 50px;
+}
+
+.main-text p {
+  color: black;
+  font-size: 1.5em;
+  font-weight: 500;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 40px;
+}
+
+.resume-btn {
+  width: 190px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(56, 55, 55);
+  background-color: rgb(195, 215, 221);
+  box-shadow: 6px 10px 50px rgba(2, 10, 20, 0.747);
+  border-style: solid;
+  border-radius: 44px;
+}
+
+.resume-btn:hover {
+  background-color: rgb(4, 218, 218);
+  transition: all ease 0.2s;
+}
+
+.menu li a:hover {
+  background-color: rgb(183, 243, 243);
+  color: rgb(3, 58, 90);
+  width: 110px;
+  height: 40px;
+  box-shadow: 3px 5px 10px rgba(2, 10, 20, 0.747);
+  transition: all ease 0.2s;
+  
+}
